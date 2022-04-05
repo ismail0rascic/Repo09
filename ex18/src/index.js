@@ -14,7 +14,9 @@ function myForLoop2() {
     var evenInverseNumbers = "";
     for (var i = 8; i >= 0; i = i - 2) {
 
-        if (i == 8) { evenInverseNumbers += i; } else {
+        if (i == 8) {
+            evenInverseNumbers += i;
+        } else {
             evenInverseNumbers += ", " + i;
         }
 
