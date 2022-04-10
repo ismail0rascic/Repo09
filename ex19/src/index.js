@@ -1,19 +1,19 @@
 function myDoWhile() {
 
-    var myNumber = "";
+    var myNumbers = "";
     var i = 0;
     do {
         if (i == 0) {
-            myNumber += i
+            myNumbers += i
             i++;
         } else {
-            myNumber += "," + i;
+            myNumbers += "," + i;
             i++;
         }
     }
     while (i < 10);
 
-    return myNumber;
+    return myNumbers;
 }
 console.log(myDoWhile());
 myDoWhile();

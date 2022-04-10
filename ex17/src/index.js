@@ -1,16 +1,16 @@
 function inverseWhile() {
-    var fiveNumber = "";
+    var fiveNumbers = "";
     var i = 5;
     while (i >= 0) {
         if (i == 5) {
-            fiveNumber += i;
+            fiveNumbers += i;
             i--;
         } else {
-            fiveNumber += "," + i;
+            fiveNumbers += "," + i;
             i--;
         }
     }
-    return fiveNumber;
+    return fiveNumbers;
 }
 console.log(inverseWhile());
 module.exports = inverseWhile;
